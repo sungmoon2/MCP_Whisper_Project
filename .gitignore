@@ -1,0 +1,109 @@
+# 인증 정보 및 개인 데이터 (절대 올리면 안됨)
+credentials.json
+token.json
+
+# 음성파일 및 STT 결과물 (개인정보 포함)
+data/input/
+data/output/
+
+# 웹앱 업로드 파일들
+webapp/uploads/
+
+# 로그 파일들
+*.log
+webapp/*.log
+
+# 가상환경
+venv/
+env/
+.venv/
+.env/
+
+# Python 캐시 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 단위 테스트 / 커버리지 보고서
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# 테스트 결과물 (굳이 안올려도 됨)
+tests/*.json
+
+# 임시 파일들 (굳이 안올려도 됨)
+paste.txt
+*.backup
+*.bak
+*_backup.*
+
+# 임시 음성 파일들
+temp_audio.*
+*temp_audio*
